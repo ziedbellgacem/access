@@ -26,11 +26,11 @@ function Dashbord() {
             <h4>View the status of your agents and the evolution of their latest alerts</h4>
             <h2>Installed agents by their status</h2>
             <div className='listSatus'>
-                <StatusCard title={"Total agents"} counter={total} />
-                <StatusCard title={"Active agents"} counter={active} />
-                <StatusCard title={"Disconnected agents"} counter={disconnected} />
-                <StatusCard title={"Pending agents"} counter={pending} />
-                <StatusCard title={"Never connected agents"} counter={neverCon} />
+                <StatusCard title={"Total agents"} counter={total} color={"rgb(0,107,180)"} />
+                <StatusCard title={"Active agents"} counter={active} color={"rgb(0, 120, 113)"} />
+                <StatusCard title={"Disconnected agents"} counter={disconnected} color={"rgb(189, 39, 30)"} />
+                <StatusCard title={"Pending agents"} counter={pending} color={"rgb(254, 197, 20)"} />
+                <StatusCard title={"Never connected agents"} counter={neverCon} color={"rgb(100, 106, 119)"} />
             </div>
         </div>
     )
